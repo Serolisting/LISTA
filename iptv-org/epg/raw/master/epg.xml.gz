@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv source-info-name="EPG Personalizado" generator-info-name="Manual">
+  
+  <!-- Canais SBT -->
+  <channel id="SBT.br">
+    <display-name lang="pt">SBT Interior SP</display-name>
+    <icon src="https://listaiptvbrasil.com/logos/imagens/sbt.png"/>
+  </channel>
+  
+  <channel id="SBT.pi">
+    <display-name lang="pt">SBT - TV Cidade Verde (PI)</display-name>
+    <icon src="https://listaiptvbrasil.com/logos/imagens/sbt.png"/>
+  </channel>
+
+  <!-- Canais Band -->
+  <channel id="Band.br">
+    <display-name lang="pt">Band Goiânia - TV Sucesso HD</display-name>
+    <icon src="https://listaiptvbrasil.com/logos/imagens/band.png"/>
+  </channel>
+
+  <channel id="Band.pb">
+    <display-name lang="pt">Band - TV Arapuan HD (PB)</display-name>
+    <icon src="https://listaiptvbrasil.com/logos/imagens/arapuam.png"/>
+  </channel>
+
+  <!-- Programação Exemplo para SBT Interior SP -->
+  <programme start="20240720000000 -0300" stop="20240720010000 -0300" channel="SBT.br">
+    <title lang="pt">Jornal do SBT</title>
+    <desc lang="pt">Telejornal matutino</desc>
+    <category lang="pt">Jornalismo</category>
+  </programme>
+
+  <!-- Programação para Kpop TV Play -->
+  <channel id="KpopTV.br">
+    <display-name lang="pt">Kpop TV Play</display-name>
+    <icon src="https://listaiptvbrasil.com/logos/imagens/kpoptvplay.png"/>
+  </channel>
+
+  <programme start="20240720120000 -0300" stop="20240720130000 -0300" channel="KpopTV.br">
+    <title lang="pt">Kpop Hits</title>
+    <desc lang="pt">Top músicas do K-pop</desc>
+    <category lang="pt">Música</category>
+  </programme>
+
+  <!-- Adicione mais programas conforme necessário -->
+
+</tv>
