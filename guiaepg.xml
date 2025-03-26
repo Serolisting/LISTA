@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv source-info-name="Lista IPTV Brasil" generator-info-name="EPG Personalizado">
+  
+  <!-- Canais TV Brasil -->
+  <channel id="AMCHD.br">
+    <display-name lang="pt">BR| AMC HD</display-name>
+    <icon src="https://listaiptvbrasil.com/logos/imagens/amc.png"/>
+  </channel>
+  <channel id="AnhangueraGoiania.br">
+    <display-name lang="pt">BR| ANHANGUERA GOIANIA</display-name>
+    <icon src="https://listaiptvbrasil.com/logos/imagens/anhanguera.png"/>
+  </channel>
+  <!-- ... (outros canais TV Brasil) ... -->
+  
+  <!-- Canais Desporto -->
+  <channel id="CombateHD.br">
+    <display-name lang="pt">BR| COMBATE HD</display-name>
+    <icon src="https://listaiptvbrasil.com/logos/imagens/combate.png"/>
+  </channel>
+  <channel id="PFCHD.br">
+    <display-name lang="pt">BR| PFC HD</display-name>
+    <icon src="https://listaiptvbrasil.com/logos/imagens/pfc.png"/>
+  </channel>
+  <!-- ... (outros canais Desporto) ... -->
+
+  <!-- Programação AMC HD -->
+  <programme start="20240325000000 -0300" stop="20240325020000 -0300" channel="AMCHD.br">
+    <title lang="pt">The Walking Dead</title>
+    <desc lang="pt">Sobreviventes enfrentam zumbis e perigos humanos em um mundo pós-apocalíptico.</desc>
+    <category lang="pt">Série</category>
+    <episode-num system="onscreen">S11E15</episode-num>
+  </programme>
+
+  <!-- Programação COMBATE HD -->
+  <programme start="20240325190000 -0300" stop="20240325210000 -0300" channel="CombateHD.br">
+    <title lang="pt">UFC Prelims</title>
+    <desc lang="pt">Lutas preliminares do Ultimate Fighting Championship.</desc>
+    <category lang="pt">Esportes</category>
+  </programme>
+
+  <!-- ... (mais programas para todos os canais) ... -->
+
+</tv>
